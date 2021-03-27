@@ -2,14 +2,6 @@ let header = document.querySelector('header');
 let mainTitle = document.querySelector('.main__title');
 let mainSubtitle = document.querySelector('.main__subtitle');
 let mainLine = document.querySelector('.main__line');
-let accordion = document.querySelector('.accordion-collapse');
-let accordionBackground = document.querySelector('.accordion__background');
-let accordionBackground2 = document.querySelector('.accordion__background2');
-let accordionBackground3 = document.querySelector('.accordion__background3');
-let accordionBackground4 = document.querySelector('.accordion__background4');
-let accordionBackground5 = document.querySelector('.accordion__background5');
-let accordionBackground6 = document.querySelector('.accordion__background6');
-let accordionBackground7 = document.querySelector('.accordion__background7');
 let hamburger = document.querySelector('.hamburger');
 let hamburgerContainer = document.querySelector('.hamburger__container');
 let sidebarContainer = document.querySelector('.sidebar__container');
@@ -18,66 +10,6 @@ let sidebarContainer = document.querySelector('.sidebar__container');
     mainTitle.classList.add('_loaded');
     mainSubtitle.classList.add('_loaded');
     mainLine.classList.add('line-loaded');
-
-
-// 	СМЕНА ФОНА АККОРДЕОНА
-
-
-$('#flush-collapseOne').on('show.bs.collapse', function () {
-   accordionBackground.classList.add('changed');
-})
-
-$('#flush-collapseOne').on('hidden.bs.collapse', function () {
-   accordionBackground.classList.remove('changed');
-})
-
-$('#flush-collapseTwo').on('show.bs.collapse', function () {
-   accordionBackground2.classList.add('changed');
-})
-
-$('#flush-collapseTwo').on('hidden.bs.collapse', function () {
-   accordionBackground2.classList.remove('changed');
-})
-
-$('#flush-collapseThree').on('show.bs.collapse', function () {
-   accordionBackground3.classList.add('changed');
-})
-
-$('#flush-collapseThree').on('hidden.bs.collapse', function () {
-   accordionBackground3.classList.remove('changed');
-})
-
-$('#flush-collapseFour').on('show.bs.collapse', function () {
-   accordionBackground4.classList.add('changed');
-})
-
-$('#flush-collapseFour').on('hidden.bs.collapse', function () {
-   accordionBackground4.classList.remove('changed');
-})
-
-$('#flush-collapseFive').on('show.bs.collapse', function () {
-   accordionBackground5.classList.add('changed');
-})
-
-$('#flush-collapseFive').on('hidden.bs.collapse', function () {
-   accordionBackground5.classList.remove('changed');
-})
-
-$('#flush-collapseSix').on('show.bs.collapse', function () {
-   accordionBackground6.classList.add('changed');
-})
-
-$('#flush-collapseSix').on('hidden.bs.collapse', function () {
-   accordionBackground6.classList.remove('changed');
-})
-
-$('#flush-collapseSeven').on('show.bs.collapse', function () {
-   accordionBackground7.classList.add('changed');
-})
-
-$('#flush-collapseSeven').on('hidden.bs.collapse', function () {
-   accordionBackground7.classList.remove('changed');
-})
 
 
 // ПЛАВНАЯ ПРОКРУТКА

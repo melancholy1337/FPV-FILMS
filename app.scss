@@ -8,7 +8,7 @@
 }
 
 
-// 							HEADER 
+														// 							HEADER 
 
 
 
@@ -142,7 +142,7 @@ header {
 	left: 0;
 }
 
-// 						ГЛАВНАЯ
+													// 						ГЛАВНАЯ
 
 
 .main__container {
@@ -203,7 +203,7 @@ header {
 }
 
 
-//						 ЧАСТЫЕ ВОПРОСЫ
+													//						 ЧАСТЫЕ ВОПРОСЫ
 
 
 .questions {
@@ -243,86 +243,8 @@ header {
 	}
 }
 
-//   					 ВСЕ ЗНАЧКИ АККОРДЕОНОВ
 
-.accordion__background {
-	display: none;
-	margin: 15px 0 10px 0;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-	transition: all 0.5s ease;
-}
-
-.accordion__background2 {
-	display: none;
-	margin: 15px 0 10px 0;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-}
-
-.accordion__background3 {
-	display: none;
-	margin: 15px 0 10px 0;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-}
-
-.accordion__background4 {
-	display: none;
-	margin: 15px 0 10px 0;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-}
-
-
-.accordion__background5 {
-	display: none;
-	margin: 15px 0 10px 0;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-}
-
-.accordion__background6 {
-	display: none;
-	margin: 15px 0 10px 0;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-}
-
-.accordion__background7 {
-	display: none;
-	margin: 15px 0 10px 0;
-	width: 100px;
-	height: 100px;
-	top: 0;
-	left: 0;
-}
-
-
-
-.changed {
-	opacity: 1;
-	display: flex;
-	justify-content: center;
-	width: 100px;
-	height: 100px;
-	visibility: 1;
-}
-
-
-// 				АККОРДЕОНЫ CSS
+																	// 				АККОРДЕОНЫ CSS
 
 .accordion {
 	margin: 5px 0 0 0;
@@ -334,8 +256,19 @@ header {
 			& button {
 				color: #fff;
 				display: flex;
+				& img {
+					margin-right: 15px;
+					width: 45px;
+					height: 40px;
+				}
 			}
 }
+
+
+
+																// 						ФОРМА
+
+
 
 .test {
 	background-color: #000;
@@ -349,9 +282,6 @@ header {
 	width: 100%;
 	padding-bottom: 10px;
 }
-
-
-// 						ФОРМА
 
 
 form {
@@ -446,15 +376,14 @@ form {
 
 
 .cards {
-	display: flex;
 	width: 100%;
-	height: 100%;
+	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
 .first__card {
-	margin: 0 10px 0 10px;
+	height: 300px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -470,7 +399,6 @@ form {
 		margin-top: 20px;
 		display: flex;
 		justify-content: center;
-		position:relative;
 		background-color: #fff;
 		border-radius: 10px 10px;
 		border: 1px solid #292958;
@@ -482,8 +410,6 @@ form {
 		width: 80px;
 		height: 80px;
 		}
-	}
-	& .card__button {
 	}
 	& button {
 		padding: 10px 30px 10px 30px;
@@ -553,9 +479,6 @@ form {
 		flex-direction: column;
 		& .contacts__item {
 			
-			& h6 {
-			
-			}
 			& .fa-telegram {
 				color: #0088cc ;
 			}
